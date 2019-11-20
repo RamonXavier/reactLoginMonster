@@ -2,9 +2,12 @@ import React, {Component} from "react";
 import { Input } from 'semantic-ui-react';
 import { Icon } from 'semantic-ui-react'
 import { Checkbox, Form, Button, Message } from 'semantic-ui-react';
+import axios from "axios";
 
 const inputDefaultColor = {
-    color:"green"
+    color:"green",
+    border: "1px green solid"
+
 }
 
 // const inputErrortColor = {
@@ -36,6 +39,20 @@ class Card extends Component {
         }else{
             this.setState({senhaError:false})
         }
+
+        let loginL = {
+            descLogin : login,
+            descSenha : senha
+        };
+
+        axios.post(
+            "https://www.softwareanddevelopment.com:8007/api/usuario/login", loginL, {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
+        .then(response => {console.log(response)}).catch( error =>{ alert(error)})
+
     }
 
     render () {
