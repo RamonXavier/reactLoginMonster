@@ -1,3 +1,37 @@
+# React Login Monster
+
+# Como Executar:
+Instale e prepare o ambiente local para rodar uma aplicação REACT.
+Após isto, crie um diretorio e com os comandos Git execute Git init.
+Logo em seguida, execute git clone https://github.com/RamonXavier/reactLoginMonster.git 
+Após isto, entre pela linha de comando, na pasta do sistema e execute git start.
+
+
+# Objetivo:
+O presente projeto tem por finalidade a apresentação o estudo da tecnologia React.
+
+# Tecnologias:
+Para desenvolvimento da plataforma foram utilizados algumas tecnologias já conhecidas e 
+algumas novidades que eu ainda não havia utilizado em nenhum projeto. 
+
+Para front-end: 
+	Html5,
+	Css,
+  Bootstrap,
+  React Js.
+
+# Ferramentas:
+	-Para edição de texto e a programação em si foi utilizada a IDE Visual Studio Code; 
+ 
+
+# Contato: 
+	Ramon Xavier
+	 Ramon38xavier@gmail.com
+	 (32) 99137-5797
+	 www.linkedin.com/in/ramonxavier
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
