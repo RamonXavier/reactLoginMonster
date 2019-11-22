@@ -4,7 +4,7 @@
 Instale e prepare o ambiente local para rodar uma aplicação REACT.
 Após isto, crie um diretorio e com os comandos Git execute Git init.
 Logo em seguida, execute git clone https://github.com/RamonXavier/reactLoginMonster.git 
-Após isto, entre pela linha de comando, na pasta do sistema e execute git start.
+Após isto, entre pela linha de comando, na pasta do sistema e execute npm start.
 
 
 # Objetivo:
